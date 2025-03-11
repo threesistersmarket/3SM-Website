@@ -34,7 +34,7 @@ function CoopEducationHero() {
       <div className="container">
         <div className="grid grid-cols-1 items-start gap-x-12 gap-y-5 md:grid-cols-2 lg:gap-x-20 lg:gap-y-16">
           <div className="fade-in">
-            <h1 className="text-6xl font-bold md:text-9xl lg:text-10xl bg-gradient-to-r from-accent-3 via-accent-1 to-accent-2 bg-clip-text text-transparent mb-8">
+            <h1 className="text-5xl font-bold md:text-9xl lg:text-10xl bg-gradient-to-r from-accent-3 via-accent-1 to-accent-2 bg-clip-text text-transparent mb-8">
               Understanding Co-ops
             </h1>
             

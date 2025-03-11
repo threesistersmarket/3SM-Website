@@ -81,7 +81,7 @@ function CoopEducationPrinciples() {
           {coopPrinciples.map((principle, index) => (
             <div 
               key={index}
-              className={`relative h-[300px]  md:h-[400px] cursor-pointer perspective-1000`}
+              className={`relative h-[350px]  md:h-[400px] cursor-pointer perspective-1000`}
               onClick={() => handleCardClick(index)}
             >
               <div 
