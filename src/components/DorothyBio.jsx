@@ -6,7 +6,7 @@ function DorothyBio({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
-    <div className="absolute inset-0 z-50 flex items-start justify-center pt-40 p-4 bg-black/50 backdrop-blur-sm">
+<div className="fixed inset-0 z-50 flex items-start justify-center pt-40 p-4 bg-black/50 backdrop-blur-sm overflow-y-auto">      
       <div className="relative w-full max-w-4xl bg-white rounded-lg p-8 shadow-xl overflow-hidden ">
         <button
           onClick={onClose}
@@ -23,7 +23,7 @@ function DorothyBio({ isOpen, onClose }) {
           <div className="relative">
             <div className="organic-border overflow-hidden natural-shadow">
               <img
-                src="https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Dorothy%20Waddy.gif"
+                src="https://static.wixstatic.com/media/c73eb8_e195831fa21143eeaafb2e3a0a70743b~mv2.gif"
                 alt="Dorothy Waddy"
                 className="w-full h-full object-cover"
               />

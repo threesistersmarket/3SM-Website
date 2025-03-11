@@ -5,8 +5,7 @@ function TeamMemberModal({ isOpen, onClose, member }) {
   if (!isOpen || !member) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
-      <div className="relative w-full max-w-3xl bg-white rounded-lg shadow-xl overflow-hidden">
+<div className="fixed inset-0 z-50 flex items-start justify-center pt-40 p-4 bg-black/50 backdrop-blur-sm overflow-y-auto">      <div className="relative w-full max-w-3xl bg-white rounded-lg shadow-xl overflow-hidden">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
@@ -14,8 +13,7 @@ function TeamMemberModal({ isOpen, onClose, member }) {
           <IoClose className="w-6 h-6" />
         </button>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
-          <div>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">  <div>
             <img
               src={member.image}
               alt={member.name}

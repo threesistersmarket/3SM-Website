@@ -6,8 +6,8 @@ function AmayBio({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
-    <div className="absolute inset-0 z-50 flex items-end justify-center pt-40 p-4 bg-black/50 backdrop-blur-sm">
-      <div className="relative w-full max-w-4xl bg-white rounded-lg p-8 shadow-xl overflow-hidden ">
+<div className="fixed inset-0 z-50 flex items-start justify-center pt-40 p-4 bg-black/50 backdrop-blur-sm overflow-y-auto">      
+  <div className="relative w-full max-w-4xl bg-white rounded-lg p-8 shadow-xl overflow-hidden ">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
@@ -23,7 +23,7 @@ function AmayBio({ isOpen, onClose }) {
           <div className="relative">
             <div className="organic-border overflow-hidden natural-shadow">
               <img
-                src="https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Amay%20James.jpg"
+                src="https://static.wixstatic.com/media/c73eb8_b6de583f7c9f4a679d442f618c772799~mv2.jpg"
                 alt="Amay M. James"
                 className="w-full h-full object-cover"
               />
