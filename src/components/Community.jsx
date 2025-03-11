@@ -10,27 +10,27 @@ function Community() {
   const neighbors = [
     {
       name: "Maria Rodriguez",
-      role: "Local Chef",
+      role: "Chef",
       quote: "This co-op brings the flavors of my childhood to our neighborhood.",
-      image: "https://static.wixstatic.com/media/c73eb8_0d56d6d8ef2a4ae5830b16a51e75a6f3~mv2.jpg"
+      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Maria.jpg"
     },
     {
       name: "James Wilson",
       role: "Urban Farmer",
       quote: "Growing food together strengthens our community bonds.",
-      image: "https://static.wixstatic.com/media/c73eb8_eec37c96cd964c7c991bbaebf8ef56d9~mv2.jpg"
+      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//James.jpg"
     },
     {
       name: "Sarah Chen",
       role: "Teacher",
       quote: "My students learn about healthy eating through our co-op visits.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80"
+      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Sarah.jpg"
     }
   ];
 
   return (
     <section className="px-[5%] py-16 md:py-24 lg:py-28 relative">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-5"></div>
+      <div className="absolute inset-0 bg-[url('https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//raindrops.jpg')] bg-cover bg-center opacity-5"></div>
       
       <div className="container relative">
         <div className="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">

@@ -24,7 +24,7 @@ function LatestNews() {
       title: "Three Sisters Market to open on West Blvd in Charlotte",
       excerpt: "After more than 20 years without a grocery store in the West Boulevard corridor, Charlotte residents have found a potential solution of their own — a co-op market. Three Sisters Market, an initiative by the West Boulevard Neighborhood Coalition, has been in the works for eight years.",
       image: "https://www.charlotteobserver.com/latest-news/2mp212/picture276659511/alternates/FREE_1140/CLT_fooddesert_03",
-      date: "2023-06-31",
+      date: "2023-06-30",
       author: "Catherine Muccigrosso",
       url: "https://www.charlotteobserver.com/news/business/whats-in-store/article276593206.html"
     },
