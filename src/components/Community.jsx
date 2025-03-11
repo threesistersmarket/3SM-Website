@@ -16,12 +16,12 @@ function Community() {
     },
     {
       name: "James Wilson",
-      role: "Urban Farmer",
+      role: "Farmer",
       quote: "Growing food together strengthens our community bonds.",
       image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//James.jpg"
     },
     {
-      name: "Sarah Chen",
+      name: "Sarah May",
       role: "Teacher",
       quote: "My students learn about healthy eating through our co-op visits.",
       image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Sarah.jpg"
