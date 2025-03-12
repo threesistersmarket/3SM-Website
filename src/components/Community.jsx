@@ -9,22 +9,22 @@ function Community() {
 
   const neighbors = [
     {
-      name: "Maria Rodriguez",
-      role: "Chef",
-      quote: "This co-op brings the flavors of my childhood to our neighborhood.",
-      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Maria.jpg"
+      name: "Dorothy Waddy",
+      role: "Sister",
+      quote: "Give a man a fish to feed him for a day...Teach a man to fish to feed him for a lifetime.",
+      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Dorothy%20Waddy.gif"
     },
     {
-      name: "James Wilson",
-      role: "Farmer",
-      quote: "Growing food together strengthens our community bonds.",
-      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//James.jpg"
+      name: "Luciel McNeel",
+      role: "Sister",
+      quote: "She exemplifies the strong women who spoke out and people listened.",
+      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Luciel.jpg"
     },
     {
-      name: "Sarah May",
-      role: "Teacher",
-      quote: "My students learn about healthy eating through our co-op visits.",
-      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Sarah.jpg"
+      name: "Amay M. James",
+      role: "Sister",
+      quote: "Served West Boulevard with spiritual and social programs for over 40 years.",
+      image: "https://jaytxitcypjelvxzcaif.supabase.co/storage/v1/object/public/media//Amay%20James.jpg"
     }
   ];
 
