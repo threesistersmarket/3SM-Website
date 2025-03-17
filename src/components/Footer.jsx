@@ -64,7 +64,8 @@ function Footer() {
             <Link to="/cookie-policy" className="text-text-primary/80 hover:text-accent-3">Cookie Policy</Link>
             <Link to="/media-disclaimer" className="text-text-primary/80 hover:text-accent-3">Media Disclaimer</Link>
           </div>
-          <p className="text-sm text-text-primary/80">© {currentYear} Three Sisters Market Co-op. All rights reserved.</p>
+          <p className="text-sm text-text-primary/80">© {currentYear} Three Sisters Market Co-op. All rights reserved.<br className="md:hidden" />  Designed by <a href="https://www.sitesonpolaris.com" className="text-light hover:text-accent-3 transition-colors">Sites on Polaris.</a>
+</p>
         </div>
       </div>
 
