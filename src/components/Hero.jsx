@@ -9,7 +9,7 @@ function Hero() {
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
   const [memberCount, setMemberCount] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
-  const targetCount = 200; // Current member count
+  const targetCount = 210; // Current member count
 
   useEffect(() => {
     // Check if we have a hash in the location and scroll to it
